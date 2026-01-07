@@ -1,9 +1,15 @@
+# Old File
+old-script
+
 # Node Modules
 node_modules
 
 # Env
 .env
 .env.*
+
+# Docker
+compose.yml
 
 # Credentials
 auth

@@ -1,0 +1,10 @@
+services:
+  whatekster:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - 3050:3050
+    volumes:
+      - ./auth:/app/auth

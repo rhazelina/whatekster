@@ -17,8 +17,8 @@ const fs = require("fs")
 const path = require("path")
 
 const defaultSetting = {
-  version: [2,3000,1023382175], // WhatsApp Beta Version!
-  browser: Browsers.windows("Dekstop") // Windows Dekstop Client!
+  version: [ 2, 3000, 1031714797 ], // WhatsApp Beta Version!
+  browser: Browsers.ubuntu("Arm64") // Windows Dekstop Client!
 }
 
 class WhatsAppClientWS {
