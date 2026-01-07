@@ -1,2 +1,2 @@
 #!/bin/bash
-node /app/server.js --auth=/app/auth
+node /app/server.js --auth /app/auth
